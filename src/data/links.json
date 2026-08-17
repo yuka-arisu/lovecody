@@ -1,0 +1,327 @@
+[
+    {
+        "category": "Google",
+        "links": [
+            {
+                "title": "Google Sheets",
+                "url": "https://docs.google.com/spreadsheets/u/0/",
+                "icon": "source/googlesheet.webp"
+            },
+            {
+                "title": "Google Docs",
+                "url": "https://docs.google.com/document/u/0/",
+                "icon": "source/googledoc.webp"
+            },
+            {
+                "title": "Google Slides",
+                "url": "https://docs.google.com/presentation/u/0/",
+                "icon": "source/googleslides.webp"
+            },
+            {
+                "title": "Google Mail",
+                "url": "https://mail.google.com/mail/u/0/#inbox",
+                "icon": "source/googlemail.webp"
+            },
+            {
+                "title": "Google Translate",
+                "url": "https://translate.google.com",
+                "icon": "source/googletranslate.webp"
+            },
+            {
+                "title": "Google Keep",
+                "url": "https://keep.google.com/u/0/#home",
+                "icon": "source/googlekeep.webp"
+            },
+            {
+                "title": "Chrome Web Store",
+                "url": "https://chromewebstore.google.com/",
+                "icon": "source/chromestore.webp"
+            }
+        ]
+    },
+    {
+        "category": "UTokyo",
+        "links": [
+            {
+                "title": "Canvas",
+                "url": "https://canvas.cityu.edu.hk/",
+                "icon": "source/canvas.webp"
+            },
+            {
+                "title": "AIMS",
+                "url": "https://banweb.cityu.edu.hk",
+                "icon": "source/AIMS.webp"
+            },
+            {
+                "title": "Online Judge",
+                "url": "https://oj.cs.cityu.edu.hk/d/CS3391/",
+                "icon": "source/oj.webp"
+            },
+            {
+                "title": "Placement Management System",
+                "url": "https://pms.cs.cityu.edu.hk/pms/",
+                "icon": "source/PMS.webp"
+            },
+            {
+                "title": "Important Dates",
+                "url": "https://www.cityu.edu.hk/arro/impd/impd_year.htm",
+                "icon": "source/calendar.png"
+            },
+            {
+                "title": "Printer",
+                "url": "https://ccstung1.ad.cityu.edu.hk:9192/app?service=page/UserWebPrint",
+                "icon": "source/printer.png"
+            }
+        ]
+    },
+    {
+        "category": "Email",
+        "links": [
+            {
+                "title": "Yahoo Mail",
+                "url": "https://mail.yahoo.com/",
+                "icon": "source/yahoomail.webp"
+            },
+            {
+                "title": "QQ Mail",
+                "url": "https://mail.qq.com/",
+                "icon": "source/qqmail.webp"
+            },
+            {
+                "title": "Outlook",
+                "url": "https://outlook.live.com/mail/",
+                "icon": "source/outlook.webp"
+            }
+        ]
+    },
+    {
+        "category": "Games",
+        "links": [
+            {
+                "title": "Minesweeper",
+                "url": "https://minesweeper.online/",
+                "icon": "source/minesweeper.webp"
+            },
+            {
+                "title": "Chess",
+                "url": "https://www.chess.com/",
+                "icon": "source/chess.com.png"
+            },
+            {
+                "title": "Poki",
+                "url": "https://poki.com/zh",
+                "icon": "source/poki.webp"
+            }
+        ]
+    },
+    {
+        "category": "Rubik's Cube",
+        "links": [
+            {
+                "title": "WCA",
+                "url": "https://www.worldcubeassociation.org",
+                "icon": "source/wca.webp"
+            },
+            {
+                "title": "Cubing.com",
+                "url": "https://cubing.com",
+                "icon": "source/cubing.webp"
+            },
+            {
+                "title": "Cuber's Level",
+                "url": "https://cuber-feng.github.io/cuberlevel/",
+                "icon": "source/grade.png"
+            },
+            {
+                "title": "cstimer",
+                "url": "https://cstimer.net",
+                "icon": "source/cstimer.webp"
+            },
+            {
+                "title": "Cube Database",
+                "url": "https://speedcubedb.com/",
+                "icon": "source/cubedatabase.webp"
+            },
+            {
+                "title": "Maple Timer",
+                "url": "https://cuber-feng.github.io/timer/",
+                "icon": "source/mptimer-round.png"
+            },
+            {
+                "title": "BLD Memory",
+                "url": "https://cuber-feng.github.io/BLD-memory/",
+                "icon": "source/memory-round.png"
+            }
+        ]
+    },
+    {
+        "category": "Social Media",
+        "links": [
+            {
+                "title": "YouTube",
+                "url": "https://www.youtube.com",
+                "icon": "source/youtube.webp"
+            },
+            {
+                "title": "Whatsapp",
+                "url": "https://www.whatsapp.com",
+                "icon": "source/whatsapp.webp"
+            },
+            {
+                "title": "Telegram",
+                "url": "https://web.telegram.org",
+                "icon": "source/telegram.png"
+            },
+            {
+                "title": "Instagram",
+                "url": "https://www.instagram.com",
+                "icon": "source/instagram.webp"
+            },
+            {
+                "title": "Facebook",
+                "url": "https://www.facebook.com",
+                "icon": "source/facebook.webp"
+            },
+            {
+                "title": "Threads",
+                "url": "https://www.threads.net",
+                "icon": "source/threads.webp"
+            },
+            {
+                "title": "Reddit",
+                "url": "https://www.reddit.com",
+                "icon": "source/reddit.webp"
+            },
+            {
+                "title": "Bilibili",
+                "url": "https://www.bilibili.com",
+                "icon": "source/bilibili.webp"
+            },
+            {
+                "title": "Rednote",
+                "url": "https://creator.xiaohongshu.com/new/home?source=official",
+                "icon": "source/rednote.webp"
+            }
+        ]
+    },
+    {
+        "category": "Learn",
+        "links": [
+            {
+                "title": "ChatGPT",
+                "url": "https://www.chatgpt.com",
+                "icon": "source/chatgpt.webp"
+            },
+            {
+                "title": "Gemini",
+                "url": "https://gemini.google.com/app?new=1",
+                "icon": "source/gemini.webp"
+            },
+            {
+                "title": "ChatPDF",
+                "url": "https://www.chatpdf.com",
+                "icon": "source/chatpdf.webp"
+            },
+            {
+                "title": "LeeCode",
+                "url": "https://www.leetcode.com",
+                "icon": "source/leetcode.webp"
+            }
+        ]
+    },
+    {
+        "category": "Tools",
+        "links": [
+            {
+                "title": "Canva",
+                "url": "https://www.canva.com/",
+                "icon": "source/canva.webp"
+            },
+            {
+                "title": "MilaNote",
+                "url": "https://app.milanote.com/1UZrw11EkGfGbF/home",
+                "icon": "source/mila.webp"
+            },
+            {
+                "title": "Photopea",
+                "url": "https://www.photopea.com/",
+                "icon": "source/photopea.png"
+            },
+            {
+                "title": "GitHub",
+                "url": "https://github.com/Cuber-Feng",
+                "icon": "source/github.webp"
+            },
+            {
+                "title": "Convertio",
+                "url": "https://convertio.co/zh/",
+                "icon": "source/convertio.png"
+            },
+            {
+                "title": "Send Anywhere",
+                "url": "https://send-anywhere.com/",
+                "icon": "source/sendanywhere.png"
+            },
+            {
+                "title": "GoatCounter",
+                "url": "https://2017feng35.goatcounter.com/",
+                "icon": "source/goatcounter.svg"
+            },
+            {
+                "title": "ColorHunt",
+                "url": "https://colorhunt.co/",
+                "icon": "source/colorhunt.png"
+            }
+        ]
+    },
+    {
+        "category": "Resources",
+        "links": [
+            {
+                "title": "ICON8",
+                "url": "https://icons8.com/icons/",
+                "icon": "source/icon8.png"
+            },
+            {
+                "title": "Pixabay",
+                "url": "https://pixabay.com/",
+                "icon": "source/pixabay.png"
+            },
+            {
+                "title": "YouTube Download",
+                "url": "https://youtube.iiilab.com",
+                "icon": "source/youtubedownload.webp"
+            }
+        ]
+    },
+    {
+        "category": "Network",
+        "links": [
+            {
+                "title": "Fast.com",
+                "url": "https://fast.com/",
+                "icon": "source/fast.com.webp"
+            },
+            {
+                "title": "阿部 寛",
+                "url": "https://abehiroshi.la.coocan.jp/",
+                "icon": "source/abe.webp"
+            },
+            {
+                "title": "My IP",
+                "url": "https://ip.me/",
+                "icon": "source/ip.me.png"
+            },
+            {
+                "title": "IT Dog",
+                "url": "https://www.itdog.cn/",
+                "icon": "source/itdog.webp"
+            },
+            {
+                "title": "RackNerd",
+                "url": "https://www.racknerd.com/",
+                "icon": "source/racknerd.webp"
+            }
+        ]
+    }
+]

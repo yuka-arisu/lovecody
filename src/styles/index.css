@@ -1,0 +1,228 @@
+/* 默認（淺色）模式 */
+:root {
+    --bg-color: #febcd3;
+    --text-color: #183B4E;
+    --card-bg: rgba(255, 255, 255, 0.25);
+    --footer-bg: #fa8cb3;
+    --clock: #333;
+    --date-color: #666;
+    --scroll-bg: #f0f0f067;
+    --scroll: linear-gradient(180deg, #ffb1cc, #f9a5c2);
+    --scroll-hover: linear-gradient(180deg, #d25983, #febcd3);
+}
+
+/* 深色模式變量覆蓋 */
+[data-theme='dark'] {
+    --bg-color: #2b2b2b;
+    --text-color: #ffffff;
+    --footer-bg: #1e1e1e;
+    --clock: white;
+    --date-color: lightgoldenrodyellow;
+    --scroll-bg: #333;
+    --scroll: linear-gradient(180deg, #878787, #535353);
+    --scroll-hover: linear-gradient(180deg, #c2c2c2, #7b7b7b);
+}
+
+
+body {
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    min-width: 524px;
+    margin: 0 auto;
+    padding: 0 5vw;
+    padding-top: 3%;
+    text-align: center;
+    overflow: hidden;
+}
+
+main {
+    overflow: auto;
+    height: 78vh;
+}
+
+@media (min-width: 1201px) {
+    body {
+        padding: 30px 0 0 0;
+        min-width: 320px;
+    }
+}
+
+a {
+    color: #27548A;
+    margin: 0 0.3rem;
+}
+
+h3 {
+    text-align: center;
+    font-size: 1.5rem;
+    margin-top: 0.5rem;
+    margin-bottom: 1.5rem;
+}
+
+div {
+    text-align: center;
+}
+
+.icon {
+    width: 2.5rem;
+    max-height: 2.5rem;
+    object-fit: contain;
+}
+
+img {
+    transition: transform 0.3s ease;
+}
+
+img:hover {
+    transform: scale(1.3) translateY(-5px);
+}
+
+.iconset {
+    display: inline-block;
+    vertical-align: top;
+    border: 0px solid #333;
+    padding: 5px 16px 16px 16px;
+    border-radius: 30px;
+    /*float: left;*/
+    margin: 15px;
+    height: 115px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.15);
+    background-color: var(--card-bg);
+    transition: box-shadow 0.3s ease;
+}
+
+.iconset:hover {
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
+}
+
+footer {
+    clear: both;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    color: white;
+    background: var(--footer-bg);
+    text-align: center;
+    padding: 0px;
+    box-shadow: 0 -2px 6px rgba(0, 0, 0, 0.1);
+    font-size: 18px;
+    font-family: serif;
+}
+
+footer p{
+    margin: 0.5rem;
+}
+
+#clock {
+    font-size: 60px;
+    font-family: 'Courier New', Courier, monospace;
+    color: var(--clock);
+}
+
+#date {
+    font-size: 20px;
+    color: var(--date-color);
+    margin-bottom: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    white-space: pre;
+}
+
+#empty {
+    height: 100px;
+    display: block;
+}
+
+::selection {
+    background: #ffcc00;
+    color: black;
+}
+
+@media (max-width: 500px) {
+    body {
+        padding: 1rem 0 0 0;
+        background-color: var(--bg-color);
+        min-width: 0;
+        max-width: 90vw;
+        margin: 0 auto;
+        text-align: left;
+    }
+
+    .icon {
+        width: 2.5rem;
+        /* margin: 0.5rem 0; */
+    }
+
+    .iconset {
+        vertical-align: top;
+        border: 0px;
+        padding: 0 0 0 0;
+        height: auto;
+        background-color: transparent;
+        border-radius: 0;
+        box-shadow: none;
+        width: 80vw;
+    }
+
+    .icons {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px 5px;
+    }
+
+    .iconset:hover {
+        box-shadow: none;
+    }
+
+    #clock {
+        font-size: 3.2rem;
+    }
+
+    #date {
+        color: var(--date-color);
+        font-size: 1rem;
+
+    }
+
+    footer {
+        font-size: 1rem;
+        font-family: serif;
+    }
+
+    h3 {
+        text-align: left;
+        font-size: 1.5rem;
+        margin-top: 0.5rem;
+        margin-bottom: 1.5rem;
+    }
+
+    .onlypc {
+        display: none;
+    }
+}
+
+/* 整个滚动条 */
+::-webkit-scrollbar {
+    width: 10px;
+    /* 垂直滚动条宽度 */
+    height: 10px;
+    /* 水平滚动条高度 */
+}
+
+/* 滚动条轨道 */
+::-webkit-scrollbar-track {
+    background: var(--scroll-bg);
+    border-radius: 5px;
+}
+
+/* 滚动条滑块 */
+::-webkit-scrollbar-thumb {
+    background: var(--scroll);
+    border-radius: 5px;
+}
+
+/* 滑块 hover */
+::-webkit-scrollbar-thumb:hover {
+    background: var(--scroll-hover);
+}
