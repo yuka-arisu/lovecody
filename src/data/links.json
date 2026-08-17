@@ -36,6 +36,11 @@
                 "title": "UTokyo",
                 "url": "https://www.u-tokyo.ac.jp/ja/index.html",
                 "icon": "source/utokyo.webp"
+            },
+            {
+                "title": "UTokyo Medicine",
+                "url": "https://www.m.u-tokyo.ac.jp/index.html",
+                "icon": "source/utokyo.webp"
             }
         ]
     },
