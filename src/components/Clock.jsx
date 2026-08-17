@@ -4,6 +4,10 @@ const Clock = () => {
     // 1. 定义状态，初始值为当前时间
     const [now, setNow] = useState(new Date());
 
+    const timeZone = Intl.DateTimeFormat().resolvedOptions().timeZone;
+    const city = timeZone.split("/").pop();
+
+
     // 2. 使用 useEffect 处理副作用（定时器）
     useEffect(() => {
         // 组件挂载时设置定时器
@@ -21,9 +25,9 @@ const Clock = () => {
     const seconds = String(now.getSeconds()).padStart(2, '0');
 
     const monthNames = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
-    const weekdayNames = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
+    const weekdayNames = ['日曜日', '月曜日', '火曜日', '水曜日', '木曜日', '金曜日', '土曜日'];
 
-    const formattedDate = `${monthNames[now.getMonth()]}-${String(now.getDate()).padStart(2, '0')}, ${now.getFullYear()}`;
+    const formattedDate = `${now.getFullYear()}-${now.getMonth() + 1}-${String(now.getDate()).padStart(2, '0')}`;
     const weekday = weekdayNames[now.getDay()];
 
     return (
@@ -32,7 +36,7 @@ const Clock = () => {
                 {hours}:{minutes}:{seconds}
             </div>
             <div id='date'>
-                {formattedDate} &nbsp;&nbsp; {weekday}
+                {formattedDate} &nbsp; {weekday} &nbsp; {city}
             </div>
         </div>
     );

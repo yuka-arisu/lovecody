@@ -115,7 +115,7 @@ footer p{
 }
 
 #clock {
-    font-size: 60px;
+    font-size: 3.5rem;
     font-family: 'Courier New', Courier, monospace;
     color: var(--clock);
 }
