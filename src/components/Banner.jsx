@@ -3,7 +3,7 @@ import React from 'react';
 const Banner = () => {
     return (
         <footer>
-            <p>Fuyuki 至上主义 -- Fuku Yuka</p>
+            <p>天天开心</p>
         </footer>
     );
 };
