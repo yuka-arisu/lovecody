@@ -26,6 +26,11 @@
                 "title": "Google Translate",
                 "url": "https://translate.google.com",
                 "icon": "source/googletranslate.webp"
+            },
+            {
+                "title": "Google Calendar",
+                "url": "https://calendar.google.com/calendar/u/0/r",
+                "icon": "source/googlecalendar.webp"
             }
         ]
     },
@@ -40,22 +45,7 @@
             {
                 "title": "UTokyo Medicine",
                 "url": "https://www.m.u-tokyo.ac.jp/index.html",
-                "icon": "source/utokyo.webp"
-            }
-        ]
-    },
-    {
-        "category": "Email",
-        "links": [
-            {
-                "title": "QQ Mail",
-                "url": "https://mail.qq.com/",
-                "icon": "source/qqmail.webp"
-            },
-            {
-                "title": "Outlook",
-                "url": "https://outlook.live.com/mail/",
-                "icon": "source/outlook.webp"
+                "icon": "source/utokyomedicine.webp"
             }
         ]
     },
@@ -83,29 +73,19 @@
         "category": "Social Media",
         "links": [
             {
+                "title": "Discord",
+                "url": "https://discord.com/",
+                "icon": "source/discord.webp"
+            },
+            {
+                "title": "Slack",
+                "url": "https://slack.com/",
+                "icon": "source/slack.webp"
+            },
+            {
                 "title": "YouTube",
                 "url": "https://www.youtube.com",
                 "icon": "source/youtube.webp"
-            },
-            {
-                "title": "Whatsapp",
-                "url": "https://www.whatsapp.com",
-                "icon": "source/whatsapp.webp"
-            },
-            {
-                "title": "Telegram",
-                "url": "https://web.telegram.org",
-                "icon": "source/telegram.png"
-            },
-            {
-                "title": "Instagram",
-                "url": "https://www.instagram.com",
-                "icon": "source/instagram.webp"
-            },
-            {
-                "title": "Reddit",
-                "url": "https://www.reddit.com",
-                "icon": "source/reddit.webp"
             },
             {
                 "title": "Bilibili",
@@ -133,9 +113,9 @@
                 "icon": "source/gemini.webp"
             },
             {
-                "title": "ChatPDF",
-                "url": "https://www.chatpdf.com",
-                "icon": "source/chatpdf.webp"
+                "title": "Claude",
+                "url": "https://claude.ai",
+                "icon": "source/claude.webp"
             },
             {
                 "title": "LeeCode",
