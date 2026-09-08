@@ -53,6 +53,16 @@
         "category": "Games",
         "links": [
             {
+                "title": "Type",
+                "url": "https://cuber-feng.github.io/type/",
+                "icon": "source/type.png"
+            },
+            {
+                "title": "TypeRacer",
+                "url": "https://play.typeracer.com/",
+                "icon": "source/typeracer.svg"
+            },
+            {
                 "title": "Minesweeper",
                 "url": "https://minesweeper.online/",
                 "icon": "source/minesweeper.webp"
